@@ -49,12 +49,33 @@ result in an increase in the idle time of the service mechanism.
 
 # Program
 
-![image](https://user-images.githubusercontent.com/104613195/175240494-46c23d4d-ddc7-43ae-8fbc-c7da9edb2c83.png)
+```
+Name : Shyam Kumar A
+Reg No : 212221230098
+
+print("Single sereve with infinite capacity queue - markovian model")
+print("\n")
+lam = float(input("Enter the value of arrival rate = "))
+mu = float(input("Enter the value of service rate = "))
+rho=lam/mu
+ls = rho/(1-rho)
+lq = ls-rho
+ws = ls/lam*60
+wq = lq/lam*60
+print("\n")
+print("Ls = %.2f"%ls)
+print("\n")
+print("Lq = %.2f"%lq)
+print("\n")
+print("Ws = %.2f"%ws)
+print("\n")
+print("Wq = %.2f"%wq)
+```
 
 
 #  Output 
 
-![image](https://user-images.githubusercontent.com/104613195/175240669-9eef6924-f33e-46f9-9c01-988b58480ce3.png)
+![image](prob.png)
 
 # Result 
  
