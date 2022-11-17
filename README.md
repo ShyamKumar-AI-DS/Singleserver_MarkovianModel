@@ -75,7 +75,7 @@ print("Wq = %.2f"%wq)
 
 #  Output 
 
-![image](prob.png)
+![image](IMG-20221117-WA0008.jpg)
 
 # Result 
  
